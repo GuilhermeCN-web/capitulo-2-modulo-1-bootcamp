@@ -3,8 +3,8 @@ body {
     background-color: white;
     color: white;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
     padding: 0;
 }
 
@@ -49,6 +49,10 @@ input {
     width: 80px;
 }
 
+h1{
+    color: orange;
+}
+
 .card button {
     background-color: black;
     color: white;
@@ -62,4 +66,14 @@ footer {
     margin-top: 20px;
     padding: 10px;
     background-color: #3c005a;
+}
+
+@media screen and (max-width: 768px) {
+    .opcoes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+    }
 }
