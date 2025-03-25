@@ -1,29 +1,36 @@
+h1{
+    color: #FAC823;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #1a001a;
     color: white;
     text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0;
     padding: 0;
 }
 
 .container {
-    background-color: #3c005a;
+    background: linear-gradient(to bottom, #1a001a, #a100c1 );
     padding: 20px;
 }
 
+.importante {
+    font-weight: bold;
+}
+
 .form-container {
-    background-color: #4b005f;
+    background: linear-gradient(to bottom, #8400a9, #1a001a);
     padding: 20px;
     margin: 20px auto;
-    width: 80%;
+    width: 60%;
     border-radius: 10px;
 }
 
 input {
     display: block;
-    width: 35%;
+    width: 40%;
     padding: 10px;
     margin: 10px auto;
     border: none;
@@ -38,7 +45,7 @@ input {
 }
 
 .card {
-    background-color: #007bff;
+    background: linear-gradient(to bottom, #007bff, #77e4fa);
     padding: 15px;
     border-radius: 10px;
     text-align: center;
@@ -47,10 +54,6 @@ input {
 
 .card img {
     width: 80px;
-}
-
-h1{
-    color: orange;
 }
 
 .card button {
@@ -65,7 +68,7 @@ h1{
 footer {
     margin-top: 20px;
     padding: 10px;
-    background-color: #3c005a;
+    
 }
 
 @media screen and (max-width: 768px) {
