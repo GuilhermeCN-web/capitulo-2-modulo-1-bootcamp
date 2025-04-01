@@ -79,4 +79,7 @@ footer {
     .card {
         width: 80%;
     }
+    input{
+        width: 200px;
+    }
 }
